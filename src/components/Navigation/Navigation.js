@@ -5,7 +5,7 @@ const Navigation = ({onRouteChange, isSignedIn}) => {
   if (isSignedIn) {
     return (
        <nav style={{display: 'flex', justifyContent: 'flex-end'}}>
-         <p onClick={() => onRouteChange('signin')}className='bg-animate hover-bg-red f6 ma4 ml4 dib white bg-purple mt4 link fw6 black ba pa3  grow pointer'>Sign Out</p>
+         <p onClick={() => onRouteChange('signout')}className='bg-animate hover-bg-red f6 ma4 ml4 dib white bg-purple mt4 link fw6 black ba pa3  grow pointer'>Sign Out</p>
        </nav>
     );
   } else {
