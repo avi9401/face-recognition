@@ -1,0 +1,23 @@
+.nav-signout{
+	border: 1px solid silver;
+	border-radius: 30px;
+	padding:  0px;
+	background-color: rgba(210, 0, 0, 0.1);
+
+}
+
+.nav-signin{
+	border: 1px solid silver;
+	border-radius: 30px;
+	padding:  0px;
+	background-color: rgba(0, 210, 0, 0.5);
+
+}
+
+.nav-register{
+	border: 1px solid silver;
+	border-radius: 30px;
+	padding:  0px;
+	background-color: rgba(0, 210, 0, 0.5);
+
+}

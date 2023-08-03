@@ -1,0 +1,23 @@
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #149df2 inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.faceimage-style{
+	border: 5px solid yellow;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.face-style {
+	border: 1px solid black;
+	border-radius: 10px;
+	
+
+
+}
+
